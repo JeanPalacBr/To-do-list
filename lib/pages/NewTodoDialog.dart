@@ -24,14 +24,14 @@ class _NewTodoDialogState extends State<NewTodoDialog> {
       ),
       content: Column(
         children: <Widget>[
-          Text("Title", style: TextStyle(fontSize: 18.0)),
+          
           Expanded(
               child: new TextField(
             autofocus: true,
             controller: controllerTitle,
             decoration: new InputDecoration(labelText: 'Title'),
           )),
-          Text("Body", style: TextStyle(fontSize: 18.0)),
+          
           Expanded(
               child: new TextField(
             controller: controllerBody,
